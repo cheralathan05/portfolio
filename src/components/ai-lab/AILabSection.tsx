@@ -48,7 +48,7 @@ export default function AILabSection() {
           <WhatIfEngine />
           <AIStoryteller />
           <AskMyFuture />
-        </div>
+        </div
 
         {/* Inline features */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
