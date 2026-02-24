@@ -90,7 +90,7 @@ export default function AILabSection() {
             transition={{ delay: 0.2 }}
             className="glass rounded-2xl p-6"
           >
-            <div className="flex items-enter gap-3 mb-4">
+            <div className="flex items-center gap-3 mb-4">
               <span className="text-2xl">🧑‍💻</span>
               <h3 className="font-bold text-foreground">{t.aiLab.codeThinking}</h3>
             </div>
