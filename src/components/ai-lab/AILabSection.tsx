@@ -61,7 +61,7 @@ export default function AILabSection() {
           >
             <div className="flex items-center gap-3 mb-4">
               <span className="text-2xl">📊</span>
-              <h3 className="font-bold text-foreground">{t.aiLab.impactMetrics}</h3>
+              <h3 className="font-bold text-foregrd">{t.aiLab.impactMetrics}</h3>
             </div>
             <ImpactMetrics />
           </motion.div>
