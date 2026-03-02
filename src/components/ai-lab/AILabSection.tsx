@@ -68,7 +68,7 @@ export default function AILabSection() {
 
           {/* Explanation Switcher */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opaciy: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
