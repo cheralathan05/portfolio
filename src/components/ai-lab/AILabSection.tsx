@@ -72,7 +72,7 @@ export default function AILabSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{once: true }}
             transition={{ delay: 0.1 }}
-            className="glass rouded-2xl p-6"
+            className="glass rounded-2xl p-6"
           >
             <div className="flex items-center gap-3 mb-4">
               <span className="text-2xl">🧩</span>
