@@ -79,7 +79,7 @@ export default function AILabSection() {
               <h3 className="font-bold text-foreground">{t.aiLab.explanationMode}</h3>
             </div>
             <p className="text-xs text-muted-foreground mb-3">{t.aiLab.explanationDesc}</p>
-            <ExplanationSwitc/>
+            <ExplanationSwitcher />
           </motion.div>
 
           {/* Code Thinking */}
