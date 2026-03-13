@@ -69,7 +69,7 @@ export default function AILabSection() {
           {/* Explanation witcher */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            whilnView={{ opacity: 1, y: 0 }}
             viewport={{once: true }}
             transition={{ delay: 0.1 }}
             className="glass rounded-2xl p-6"
