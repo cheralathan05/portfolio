@@ -77,7 +77,7 @@ export default function AILabSection() {
             <div className="flex items-center gap-3 mb-4">
               <span className="text-2xl">🧩</span>
               <h3 className="font-bold text-foreground">{t.aiLab.explanationMode}</h3>
-            </div
+            </div>
             <p className="text-xs text-muted-foreground mb-3">{t.aiLab.explanationDesc}</p>
             <ExplanationSwitcher />
           </motion.div>
