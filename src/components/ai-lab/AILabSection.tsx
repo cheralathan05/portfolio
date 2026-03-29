@@ -79,7 +79,7 @@ export default function AILabSection() {
               <h3 className="font-bold text-foreground">{t.aiLab.explanationMode}</h3>
             </div>
        
-          </motiv>
+          </motion.div>
 
           {/* Co Thiking */}
           <motion.div
