@@ -8,7 +8,8 @@ interface Projection {
 }
 
 const skillProfile = {
-  current: ["React", "Node.js", "Spring Boot", "TypeScri
+  current: ["React", "Node.js", "Spring Boot", "TypeScript", "Java", "MySQL", "OpenAI API", "Computer Vision", "Tailwind CSS", "Three.js"],
+  projects: [
     { name: "Driver Safety System", impact: "94% accuracy, real-time CV" },
     { name: "Unified Business Platform", impact: "60% faster data retrieval" },
     { name: "AI Portfolio", impact: "11+ interactive AI features, 3D, production-grade" },
