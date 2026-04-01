@@ -17,9 +17,6 @@ const skillProfile = {
   traits: ["ships production code", "full-stack ownership", "AI-native builder", "self-directed learner", "impact-driven engineering"],
 };
 
-function generateProjection(question: string): Projection {
-  const q = question.toLowerCase();
-
   if (q.match(/2\s*year|two\s*year|short.?term|near\s*future/)) {
     return {
       answer: `In 2 years, Cheralathan will likely be a Senior Full-Stack Engineer or AI Product Engineer at a growth-stage company. His trajectory shows rapid skill accumulation — from classical backend (Spring Boot, MySQL) to modern AI integration (OpenAI APIs, computer vision). Given his pattern of building end-to-end systems independently, he'll naturally evolve into a technical lead who owns entire product verticals.`,
