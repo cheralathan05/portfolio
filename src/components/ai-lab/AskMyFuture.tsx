@@ -2,11 +2,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState, useRef } from "react";
 import { HiOutlineX } from "react-icons/hi";
 
-interface Projection {
-  answer: string;
-  reasoning: string[];
-}
-
 const skillProfile = {
   current: ["React", "Node.js", "Spring Boot", "TypeScript", "Java", "MySQL", "OpenAI API", "Computer Vision", "Tailwind CSS", "Three.js"],
   projects: [
