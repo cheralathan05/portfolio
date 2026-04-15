@@ -10,14 +10,7 @@ interface Projection {
 function generateProjection(question: string): Projection {
   const q = question.toLowerCase();
 
-  if (q.match(/2\s*year|two\s*year|short.?term|near\s*future/)) {
-    return {
-      answer: `In 2 years, Cheralathan will likely be a Senior Full-Stack Engineer or AI Product Engineer at a growth-stage company. His trajectory shows rapid skill accumulation — from classical backend (Spring Boot, MySQL) to modern AI integration (OpenAI APIs, computer vision). Given his pattern of building end-to-end systems independently, he'll naturally evolve into a technical lead who owns entire product verticals.`,
-      reasoning: [
-        "Already builds production-grade full-stack systems solo",
-        "AI integration skills position him ahead of most peers",
-        "Track record of measurable impact (94% accuracy, 60% efficiency gains)",
-        "Portfolio engineering quality signals senior-level thinking",
+  if (q.match(/2\s*year|two\s*year|short.?term|near\s*future/)) {]]
       ],
     };
   }
